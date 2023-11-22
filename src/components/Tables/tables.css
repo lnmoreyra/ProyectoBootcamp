@@ -1,0 +1,72 @@
+
+.titleH2{
+  text-align: center;
+  background-color: #203A43;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  padding: 5px;
+}
+
+
+.Statics-table,
+.upcoming-table,
+.past-table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
+  background-color: #f0f0f0;
+  width: 75%;
+/*  margin: 1rem;*/
+  padding: 1rem;
+  border-collapse: collapse;
+}
+
+.Statics-table th,
+.upcoming-table th,
+.past-table th {
+  background-color: #4f5254;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Estilo para las celdas de datos */
+.Statics-table td,
+.upcoming-table td,
+.past-table td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+td{
+  font-weight: 600;
+}
+
+/* Media query para tablet (768px) */
+@media screen and (max-width: 768px) {
+  .Statics-table,
+  .upcoming-table,
+  .past-table {
+    font-size: 16px;
+  }
+}
+
+/* Media query para teléfonos (480px) */
+@media screen and (max-width: 480px) {
+  .Statics-table,
+  .upcoming-table,
+  .past-table {
+    font-size: 14px;
+  }
+}
+
+/* Media query para teléfonos pequeños (320px) */
+@media screen and (max-width: 320px) {
+  .Statics-table,
+  .upcoming-table,
+  .past-table {
+    font-size: 12px;
+  }
+}

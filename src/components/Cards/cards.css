@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  }
+
+.card-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin: 1rem;
+    gap: 1.3rem;
+    
+  }
+  
+  .Card {
+    width: calc(33.33% - 1rem); /* Asegura que las tarjetas ocupen un tercio del contenedor */
+    margin: 1rem; /* Espacio entre las tarjetas */
+    padding: 0.5rem;
+    margin-bottom: 1.3rem;
+    background-color: #333;
+    color: rgb(28, 21, 21);
+    border: 1px solid #555 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+    transition: background-color 0.3s;
+  }
+
+  .CardActions{
+    box-shadow: 0 4px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .Card:hover {
+    background-color: #705e5e !important; /* Cambia el color de fondo al pasar el mouse sobre la tarjeta */
+  }
+  
+.CardMedia img {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+}
+
+  .Card Button {
+    background-color: #240879;
+    color: rgb(255, 253, 253);
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+  }
+  
+  .Card Button:hover {
+    background-color: #1928d2; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+  }
+  

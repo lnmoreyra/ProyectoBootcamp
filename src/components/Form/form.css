@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  }
+
+
+.dataForm {
+  margin: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+
+
+.form1 {
+  margin-bottom: 10px;
+  color: #FFEFBA; 
+  font-size: 16px;
+  text-shadow: 2px 2px 4px #0F2027;
+}
+
+
+.formContact {
+  background-color: #c0c0c0; 
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 2px solid #203A43;
+  box-shadow: 2px 2px 4px #203A43 ;
+  max-width: 800px; 
+  margin: 1rem;
+  
+}
+
+.form1 {
+  display: flex;
+  flex-direction:column;
+  background: none;
+}
+
+.term {
+  display: flex;
+  font-size: 0.6rem;
+  margin-left: 10px;
+}
+
+.dataForm label {
+  display: flex;
+  align-items: center; /* Alinea verticalmente */
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0.3rem;
+}
+
+span {
+  font-weight: 1rem; 
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: #FFEFBA;
+}
+
+textarea{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formText {
+  display: block;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 0.5rem;
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  display: flex;
+}
+
+input[type="submit"] {
+  background-color: #203A43;
+  position: center;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 0.7rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFEFBA;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #5c5a63; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
+
+
+
+/* Media queries para diseño responsivo */
+@media (max-width: 600px) {
+  label {
+    font-size: 14px; /* Tamaño de fuente reducido en pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 400px) {
+  label {
+    font-size: 12px; /* Tamaño de fuente aún más reducido en pantallas muy pequeñas */
+  }
+}
+
+@media (max-width: 300px) {
+  label {
+    font-size: 10px; /* Tamaño de fuente muy reducido en pantallas extremadamente pequeñas */
+  }
+}

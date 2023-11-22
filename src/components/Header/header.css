@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  }
+
+.amazing{
+  display: flex;
+  align-items: center;
+}
+header {
+    background: linear-gradient(to left,#0F2027,#203A43,#2C5364);
+    color: #C0C0C0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.6rem;
+    display: flex;
+    margin: 0;
+  }
+  
+  .logo {
+    width: 80px; /* Ajusta el ancho del logo según sea necesario */
+    height: auto; /* Mantiene la proporción al ajustar el ancho */
+    margin: 2rem;
+    }
+
+/* Estilos para el texto h3 */
+h3 {
+    margin: 0; /* Elimina el margen predeterminado */
+    font-size: 24px; /* Tamaño del texto */
+    text-shadow: 2px 2px 4px black;
+}
+
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Estilos para el enlace del logotipo */
+  header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* Media queries para hacerlo responsivo */
+@media screen and (max-width: 768px) {
+  .logo {
+      width: 60px; /* Ancho reducido del logo */
+  }
+  h3 {
+      font-size: 20px; /* Texto más pequeño */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+      width: 40px; /* Ancho aún más reducido del logo */
+  }
+  h3 {
+      font-size: 16px; /* Texto más pequeño */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+      width: 30px; /* Ancho mínimo del logo */
+  }
+  h3 {
+      font-size: 14px; /* Texto más pequeño */
+  }
+}

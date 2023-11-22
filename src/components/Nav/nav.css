@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+ }
+ 
+.nav1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav1 a {
+    color: #FFEFBA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 5px
+  }
+
+  .nav1 a:active {
+    background-color: #ddd;
+    animation: clickEffect 0.3s ease;
+}
+
+@keyframes clickEffect {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+
+  /* Media queries para la responsividad */
+  @media (max-width: 768px) {
+    .nav1 {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav1 a {
+      margin: 5px 0;
+    }
+  }
